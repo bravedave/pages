@@ -11,9 +11,9 @@ _my extension is called __pages___
 ### Steps
 1. <a href="#Development_Environment">Create a development/testing environment</a>
 2. <a href="#Develop_Test">develop and test</a>
-3. publish - GitHub - https://github.com/
-4. advertise - PackAGist -  https://packagist.org/
-5. use - composer
+3. <a href="#Publish_to_GitHub">publish - GitHub</a>
+4. <a href="#advertise_on_PackAGist">advertise - PackAGist</a>
+5. <a href="#use_composer">use - composer</a>
 
 ### Recipe
 
@@ -113,5 +113,36 @@ _my extension is called __pages___
 
    // page will self destruct and close
    ```
+
+<a name="Publish_to_GitHub"></a>
+#### publish - GitHub
+
+I've obviously publised this at https://github.com/bravedave/pages ..
+
+
+<a name="advertise_on_PackAGist"></a>
+#### advertise - PackAGist
+
+Once published, advertise the package to composer at https://packagist.org/
+
+
+<a name="use_composer"></a>
+#### use - composer
+
+once advertised - you can use the namespaced application ..
+>  __install__
+>  ```bash
+>  composer require bravedave/pages
+>  ```
+>
+>  __use__
+>  ```php
+>  $page = new pages\page;	// from outside this namespace
+>  $page->open();
+>
+>  print 'say what you want ...';
+>
+>  // page will self destruct and close
+>  ```
 
 
