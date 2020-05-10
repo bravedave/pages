@@ -30,6 +30,9 @@ _my extension is called __pages___
 
    _composer.json_
    ```json
+   "name": "bravedave/pages",
+   "description": "Minimum Viable Product - extension",
+
    "autoload": {
         "psr-4": {
             "pages\\": "src/app/"
@@ -99,6 +102,16 @@ _my extension is called __pages___
    namespace pages;
 
    class page { ... }
+   ```
+
+2. Use the class in your environment
+   ```php
+   $page = new page;	// from this namespace
+   $page->open();
+
+   print 'say what you want ...';
+
+   // page will self destruct and close
    ```
 
 

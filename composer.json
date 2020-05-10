@@ -1,6 +1,6 @@
 {
-    "name": "bravedave/mvp",
-    "description": "Minimum Viable Product",
+    "name": "bravedave/pages",
+    "description": "Minimum Viable Product - extension",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "license": "MIT",
