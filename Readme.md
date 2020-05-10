@@ -83,8 +83,7 @@ _my extension is called __pages___
 <a name="Develop_Test"></a>
 #### Develop and Test
 
-1. Create a namespaced class - _src/app/page.php_<br />
-   (see the src/app/page.php for full source)
+1. Create a namespaced class - _src/app/page.php_ (see the https://github.com/bravedave/pages/blob/master/src/app/page.phpsrc/app/page.php)
 
    ```php
    <?php
@@ -99,7 +98,7 @@ _my extension is called __pages___
 
    namespace pages;
 
-   class page {}
+   class page { ... }
    ```
 
 
